@@ -78,11 +78,64 @@ h2 {
     text-align: left;
 }
 
+/* =======MOBILE HEADER======== */
+
 .container {
-    width: 320px;
-    padding-left: 16px;
-    padding-right: 16px;
+    max-width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
-/* =====HEADER ======= */
+
+.logo {
+    display: flex;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #4d5ae5;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.logo-std {
+    color: #2e2f42;
+}
+
+.menu {
+    display: none;
+}
+
+.adrs {
+    display: none;
+}
+
+.mobile-menu-open-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+    stroke: #2f2f37;
+}
+/* =======/MOBILE HEADER======== */
+
+/* =======TABLET HEADER======== */
+@media screen and (min-width: 768px) { 
+    .container {
+        max-width: 736px;
+    }
+}
+
+/* =======/TABLET HEADER======== */
+
+/* =======DESKTOP HEADER======== */
+@media screen and (min-width:1158px) {
+    .container {
+        min-width: 1440px;
+    }
+}
+
+/* =====/DESKTOP HEADER ======= */
