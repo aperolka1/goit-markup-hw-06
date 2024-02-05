@@ -177,6 +177,11 @@ h2 {
     transform: translateX(0%);
 }
 
+.mobile-navigation {
+    margin-top: 72px;
+}
+
+
 .mob-nav-item {
     display: flex;
     font-family: 'Roboto';
